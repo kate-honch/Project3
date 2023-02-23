@@ -1,0 +1,300 @@
+.main {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  padding: 24px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+@media (min-width: 768px) {
+  .main {
+    width: 740px;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    width: 1040px;
+  }
+}
+
+.hotel {
+  margin-bottom: 48px;
+}
+.hotel__img {
+  width: 100%;
+}
+.hotel__title {
+  border-bottom: 1px solid #c7c3c3;
+}
+.hotel__tour {
+  position: absolute;
+  top: 78px;
+  width: 120px;
+  height: 120px;
+  left: 22px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS";
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  background: rgba(255, 242, 0, 0.6980392157);
+  border-radius: 50%;
+}
+.hotel__tour p:first-child {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hotel__tour:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.hotel__code {
+  margin-bottom: 6px;
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hotel__numbers {
+  width: 108px;
+  height: 31px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS";
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #000000;
+}
+.hotel__days {
+  position: absolute;
+  top: 312px;
+  right: 0;
+  width: 144px;
+}
+.hotel__days p {
+  font-family: "Trebuchet MS";
+  font-size: 88px;
+  line-height: 102px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #777777;
+}
+.hotel__days p:last-of-type {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 31px;
+  color: #000000;
+  letter-spacing: initial;
+  text-transform: none;
+}
+.hotel__block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px 0 143px;
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000000;
+}
+.hotel__stars {
+  width: 116px;
+  height: 26px;
+  margin-bottom: 20px;
+}
+.hotel__container span {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hotel__container span:first-child {
+  font-family: "Arial";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.hotel__reviews {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #000000;
+}
+.hotel__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hotel__box p {
+  font-family: "Arial";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hotel__rating {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #008BAA;
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .hotel__tour {
+    top: 160px;
+    width: 200px;
+    height: 200px;
+    left: 32px;
+    padding: 20px 40px 47px 41px;
+  }
+  .hotel__tour p:first-child {
+    margin-bottom: 16px;
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .hotel__code {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .hotel__days {
+    top: 388px;
+    right: 54px;
+    width: 144px;
+    height: 151px;
+  }
+  .hotel__block {
+    width: 295px;
+    margin: 0 0 50px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    color: #000000;
+  }
+  .hotel__stars {
+    width: 146px;
+  }
+  .hotel__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 547px;
+    height: 52px;
+  }
+  .hotel__container p {
+    text-align: left;
+  }
+  .hotel__reviews {
+    width: 93px;
+    margin-bottom: 0;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .hotel__box {
+    width: 346px;
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .hotel__info {
+    margin-top: 23px;
+  }
+  .hotel__img {
+    width: 1040px;
+    height: 553px;
+  }
+  .hotel__tour {
+    top: 294px;
+    left: 32px;
+    width: 250px;
+    height: 250px;
+    padding: 45px 40px 47px 41px;
+  }
+  .hotel__code {
+    margin-bottom: 6px;
+  }
+  .hotel__numbers {
+    width: 108px;
+    height: 31px;
+    margin: 0 auto;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+  }
+  .hotel__days {
+    top: 550px;
+    right: 114px;
+  }
+  .hotel__days p {
+    font-family: "Trebuchet MS";
+    font-size: 88px;
+    line-height: 102px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #777777;
+  }
+  .hotel__days p:last-of-type {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    color: #000000;
+    letter-spacing: initial;
+    text-transform: none;
+  }
+  .hotel__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 562px;
+    margin-bottom: 27px;
+  }
+  .hotel__stars {
+    margin: 0px;
+  }
+  .hotel__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 547px;
+    height: 52px;
+  }
+}/*# sourceMappingURL=hotel.css.map */

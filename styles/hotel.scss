@@ -1,0 +1,345 @@
+.main {
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding: 24px 0;
+    border-bottom: 1px solid #E0E0E0;;
+
+    @media (min-width: 768px) {
+        width: 740px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1040px;
+    }
+}
+
+.hotel {
+    margin-bottom: 48px;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+        border-bottom: 1px solid #c7c3c3;
+    }
+
+    &__tour {
+        position: absolute;
+        top: 78px;
+        width: 120px;
+        height: 120px;
+        left: 22px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS';
+        font-weight: 500;
+        text-align: center;
+        color: #000000;
+        background: #FFF200B2;
+        border-radius: 50%;
+
+        p:first-child {
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: 0.4s;
+        }
+    }
+
+    &__code {
+        margin-bottom: 6px;
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__numbers {
+        width: 108px;
+        height: 31px;
+        margin: 0 auto;
+        font-family: 'Trebuchet MS';
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #000000;
+    }
+
+    &__days {
+        position: absolute;
+        top: 312px;
+        right: 0;
+        width: 144px;
+
+        p {
+            font-family: 'Trebuchet MS';
+            font-size: 88px;
+            line-height: 102px;
+            letter-spacing: -0.05em;
+            text-transform: uppercase;
+            text-align: center;
+            color: #777777;
+
+            &:last-of-type {
+                font-family: 'Arial';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 31px;
+                color: #000000;
+                letter-spacing: initial;
+                text-transform: none;
+            }
+        }
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 10px 0 143px;
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    &__stars {
+        width: 116px;
+        height: 26px;
+        margin-bottom: 20px;
+    }
+
+    &__container {
+
+        span {
+            font-family: 'Arial';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #000000;
+
+            &:first-child {
+                font-family: 'Arial';
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+                text-transform: none;
+                letter-spacing: normal;
+            }
+        }
+    }
+
+    &__reviews {
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: 'Arial';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: none;
+        letter-spacing: normal;
+        color: #000000
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        p {
+            font-family: 'Arial';
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+
+    &__rating {
+        width: 52px;
+        height: 52px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background: #008BAA;
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 52px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 768px) {
+    .hotel {
+        &__tour {
+            top: 160px;
+            width: 200px;
+            height: 200px;
+            left: 32px;
+            padding: 20px 40px 47px 41px;
+
+            p:first-child {
+                margin-bottom: 16px;
+                font-size: 25px;
+                line-height: 29px;
+            }
+        }
+
+        &__code {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__days {
+            top: 388px;
+            right: 54px;
+            width: 144px;
+            height: 151px;
+        }
+
+        &__block {
+            width: 295px;
+            margin: 0 0 50px;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 130%;
+            color: #000000;
+        }
+
+        &__stars {
+            width: 146px;
+        }
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 547px;
+            height: 52px;
+
+            p {
+                text-align: left;
+            }
+
+        }
+
+        &__reviews {
+            width: 93px;
+            margin-bottom: 0;
+            font-family: 'Arial';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: normal;
+            color: #000000
+        }
+
+        &__box {
+            width: 346px;
+            margin-top: 0;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .hotel {
+        &__info {
+            margin-top: 23px;
+        }
+
+        &__img {
+            width: 1040px;
+            height: 553px;
+        }
+
+        &__tour {
+            top: 294px;
+            left: 32px;
+            width: 250px;
+            height: 250px;
+            padding: 45px 40px 47px 41px;
+        }
+
+        &__code {
+            margin-bottom: 6px;
+        }
+
+        &__numbers {
+            width: 108px;
+            height: 31px;
+            margin: 0 auto;
+            font-family: 'Trebuchet MS';
+            font-size: 24px;
+            line-height: 31px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #000000;
+        }
+
+        &__days {
+            top: 550px;
+            right: 114px;
+
+            p {
+                font-family: 'Trebuchet MS';
+                font-size: 88px;
+                line-height: 102px;
+                letter-spacing: -0.05em;
+                text-transform: uppercase;
+                color: #777777;
+
+                &:last-of-type {
+                    font-family: 'Arial';
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 31px;
+                    color: #000000;
+                    letter-spacing: initial;
+                    text-transform: none;
+                }
+            }
+        }
+
+        &__block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 562px;
+            margin-bottom: 27px;
+        }
+
+        &__stars {
+            margin: 0px;
+        }
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 547px;
+            height: 52px;
+        }
+
+    }
+}

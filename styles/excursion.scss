@@ -1,0 +1,104 @@
+.excursion {
+    margin-bottom: 48px;
+
+    &__silkRoad {
+        padding-bottom: 60px;
+    }
+
+    &__silkRoad,
+    &__Ropejumping {
+        width: 85%;
+        margin: 0 auto;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        color: #000000;
+        border-bottom: 1px solid #c7c3c3;
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__price {
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        color: #000000;
+        float: right;
+
+        &--old {
+            display: none;
+        }
+    }
+
+    &__text {
+        width: 50%;
+        margin-top: 10px;
+        font-family: 'Arial';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+    }
+}
+
+@media (min-width: 1200px) {
+    .excursion {
+        display: flex;
+        justify-content: space-between;
+
+        &__silkRoad {
+            padding-bottom: 0px;
+        }
+
+        &__silkRoad,
+        &__Ropejumping {
+            width: 500px;
+            margin: 0;
+        }
+
+        img {
+            width: 500px;
+            height: 280px;
+        }
+    }
+}
+
+.excursion__silkRoad:hover .excursion__title,
+.excursion__Ropejumping:hover .excursion__title  {
+    color: #CB0000;
+    transition: 0.4s;
+}
+
+.excursion__silkRoad:hover .excursion__price--old,
+.excursion__Ropejumping:hover .excursion__price--old  {
+    display: block;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #777777;
+
+        del {
+            text-decoration-color: #CB0000;
+        }
+}

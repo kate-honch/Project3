@@ -1,0 +1,48 @@
+.table {
+  height: 256px;
+  margin-bottom: 40px;
+
+  th {
+      width: 180px;
+      padding-left: 8px;
+      text-align: left;
+      font-family: 'DM Sans';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 64px;
+      letter-spacing: 0.1px;
+      color: #000000;
+    }
+    
+    td {
+      margin: 0 auto;
+      padding-left: 8px;
+      font-family: 'DM Sans';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 64px;
+      letter-spacing: 0.1px;
+      color: #000000;
+    }
+    
+    &__titles {
+      background: #F7F7F7;
+    }
+    
+    tr {
+      height: 64px;
+
+      &:nth-child(3),
+      &:last-of-type {
+          border-top: 1px solid #E0E0E0;
+      }
+    }
+}
+
+@media (min-width: 1200px) {
+    .table {
+      width: 744px;
+      height: 256px;
+      margin: 0 0 40px 16px;
+  }
+}

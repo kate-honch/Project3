@@ -1,0 +1,114 @@
+.info {
+  position: relative;
+  margin-bottom: 24px;
+}
+.info__title {
+  margin-bottom: 25px;
+  overflow: hidden;
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+.info__text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.info__text:first-child {
+  margin-bottom: 20px;
+}
+.info h2 {
+  margin: 24px 0 8px;
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  color: #000000;
+}
+.info article {
+  margin: 24px 0;
+  padding-left: 16px;
+  border-left: 8px solid #008BAA;
+  float: right;
+}
+.info h3 {
+  margin: 24px 0 8px;
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+}
+.info__block {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .info__title {
+    margin-bottom: 32px;
+    font-size: 45px;
+  }
+  .info__container {
+    width: 70%;
+  }
+  .info article {
+    width: 466px;
+  }
+  .info__block {
+    display: block;
+    position: absolute;
+    top: 353px;
+    right: 0;
+    width: 172px;
+    height: 293px;
+  }
+  .info__header {
+    margin-bottom: 4px;
+    font-family: "Trebuchet MS";
+    font-size: 90px;
+    line-height: 116px;
+    letter-spacing: -0.05em;
+    color: #777777;
+  }
+  .info__subtitle {
+    margin-bottom: 8px;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+  }
+  .info__discussion {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777777;
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    width: auto;
+  }
+  .info__title {
+    font-size: 48px;
+    width: 792px;
+  }
+  .info__container {
+    width: 776px;
+  }
+  .info article {
+    width: 728px;
+  }
+  .info__block {
+    width: 227px;
+    height: 319px;
+  }
+  .info__discussion {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=info.css.map */

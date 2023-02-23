@@ -1,0 +1,17 @@
+.list {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.list p {
+  margin-bottom: 8px;
+}
+.list ul {
+  list-style-position: inside;
+  margin-left: 10px;
+}
+.list ul li {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=list.css.map */

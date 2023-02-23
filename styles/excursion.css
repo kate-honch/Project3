@@ -1,0 +1,89 @@
+.excursion {
+  margin-bottom: 48px;
+}
+.excursion__silkRoad {
+  padding-bottom: 60px;
+}
+.excursion__silkRoad, .excursion__Ropejumping {
+  width: 85%;
+  margin: 0 auto;
+}
+.excursion__silkRoad:hover, .excursion__Ropejumping:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.excursion img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.excursion__title {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000000;
+  border-bottom: 1px solid #c7c3c3;
+}
+.excursion__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.excursion__price {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000000;
+  float: right;
+}
+.excursion__price--old {
+  display: none;
+}
+.excursion__text {
+  width: 50%;
+  margin-top: 10px;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+@media (min-width: 1200px) {
+  .excursion {
+    display: flex;
+    justify-content: space-between;
+  }
+  .excursion__silkRoad {
+    padding-bottom: 0px;
+  }
+  .excursion__silkRoad, .excursion__Ropejumping {
+    width: 500px;
+    margin: 0;
+  }
+  .excursion img {
+    width: 500px;
+    height: 280px;
+  }
+}
+.excursion__silkRoad:hover .excursion__title,
+.excursion__Ropejumping:hover .excursion__title {
+  color: #CB0000;
+  transition: 0.4s;
+}
+
+.excursion__silkRoad:hover .excursion__price--old,
+.excursion__Ropejumping:hover .excursion__price--old {
+  display: block;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #777777;
+}
+.excursion__silkRoad:hover .excursion__price--old del,
+.excursion__Ropejumping:hover .excursion__price--old del {
+  text-decoration-color: #CB0000;
+}/*# sourceMappingURL=excursion.css.map */
